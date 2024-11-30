@@ -1,0 +1,463 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.bg-color-light {
+    background-color: #FFF1E3;
+}
+
+.bg-color-dark {
+    background-color: #F29A63;
+}
+
+.color-dark {
+    color: #F29A63;
+}
+
+.color-light {
+    color: #FFF1E3;
+}
+
+/* Header Starting Point */
+.nav_main {
+    z-index: 100000;
+}
+
+nav {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.navbar-nav {
+    font-size: 1.1rem;
+}
+
+.nav-item .nav-border {
+    content: "";
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: #F29A63;
+    transition: all ease-in-out .4s;
+}
+
+.nav-link {
+    font-family: "Hanken Grotesk";
+}
+
+.nav-link span {
+    transition: all ease-in-out .4s;
+}
+
+.nav-link:hover span {
+    color: #F29A63;
+}
+
+.nav-link:hover {
+    color: #F29A63;
+}
+
+.nav-item:hover .nav-border {
+    width: 100%;
+}
+
+.search a i {
+    transition: all ease-in-out .4s;
+}
+
+.search a i:hover {
+    color: #F29A63;
+}
+
+.contact_btn {
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    padding: .7rem 1.2rem;
+    font-family: "Hanken Grotesk";
+    transition: all ease-in-out .4s;
+}
+
+.contact_btn:hover {
+    transform: scale(1.087);
+}
+
+/* Home Section Starting Point */
+
+.home_section {
+    margin-top: 5rem;
+}
+
+.home_section_text h1 {
+    line-height: 55px;
+    font-family: "Hanken Grotesk";
+}
+
+.home_section_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.home_section_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.get_free_btn {
+    background-color: #F29A63;
+    transition: all ease-in-out .4s;
+}
+
+.get_free_btn:hover {
+    transform: scale(1.087);
+}
+
+.arrow_home {
+    width: 125px;
+    height: 125px;
+    right: -28px;
+    top: 200px;
+    transform: rotate(-30deg);
+}
+
+.home_ul li {
+    list-style: none;
+}
+
+.home_ul li span {
+    font-family: "Hanken Grotesk";
+}
+
+.home_icon {
+    color: #F29A63;
+    font-weight: 600;
+}
+
+/* Startups Section Starting Point */
+
+.startups_section {
+    background-color: #FFF1E3;
+}
+
+.startups_section p {
+    font-family: "Hanken Grotesk";
+}
+
+.startups_section_slider .item {
+    height: 45px;
+    transition: all ease-in-out .5s;
+}
+
+.item_img_1 {
+    transition: all ease-in-out .5s;
+}
+
+.item_img_2 {
+    display: none;
+    transition: all ease-in-out .5s;
+}
+
+.item:hover .item_img_1 {
+    display: none;
+}
+
+.item:hover .item_img_2 {
+    display: block;
+}
+
+/* Email Campaigns Section Starting Point */
+.ekit_wrapper {
+    top: 70px;
+}
+
+.ekit_wrapper ul li {
+    list-style: none;
+    border-top: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.ekit_wrapper ul li a {
+    color: rgb(0, 0, 0);
+    font-family: "Hanken Grotesk";
+}
+
+.ekit_wrapper ul li a:focus,
+.ekit_wrapper ul li a:hover {
+    color: #F29A63;
+}
+
+.ekit_wrapper ul li a:hover li {
+    border-bottom: 1px solid #F29A63;
+}
+
+.ekit_span {
+    font-family: "Hanken Grotesk";
+    font-size: 0.7rem;
+    color: #F29A63;
+    background-color: #FFF1E3;
+}
+
+.email_campaigns_box_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.email_campaigns_box_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.email_campaigns_box_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.email_campaigns_box_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.email_campaigns_box_ul li {
+    list-style: none;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+/* Automated workflows Section Starting Point */
+
+.email_campaigns_box_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.email_campaigns_box_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.email_campaigns_box_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.email_campaigns_box_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.email_campaigns_box_ul li {
+    list-style: none;
+    border-bottom: 1px solid #E7E7E7;
+}
+
+/* Newsletter Solutions Section Starting Point */
+
+.newsletter_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.newsletter_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.newsletter_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.newsletter_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.newsletter_img {
+    height: 260px;
+}
+
+.newsletter_box_text {
+    font-family: "Hanken Grotesk";
+}
+
+/* Customer Stories Section Starting Point  */
+
+.stories_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.stories_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.stories_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.stories_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.stories_box_text {
+    font-family: "Hanken Grotesk";
+}
+
+.stories_name {
+    font-family: "Hanken Grotesk";
+}
+
+/* Plugin Integration Section Ending Point */
+
+.integration_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.integration_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.integration_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.integration_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.integration_img {
+    height: 260px;
+}
+
+.integration_box {
+    gap: 30px;
+}
+
+.integration_box figure {
+    width: 80px;
+    height: 80px;
+}
+
+.integration_box figure img {
+    width: 43px;
+    height: 43px;
+}
+
+.integration_box_text {
+    font-family: "Hanken Grotesk";
+}
+
+.black_btn {
+    color: #ffffff;
+    background-color: black;
+    border: none;
+    padding: 1rem 1.8rem;
+    font-family: "Hanken Grotesk";
+    transition: all ease-in-out .4s;
+}
+
+.black_btn:hover {
+    transform: scale(1.087);
+}
+
+.integration_box_text {
+    transition: all ease-in-out .4s;
+}
+
+.integration_box_text:hover {
+    transform: translateY(-30px);
+}
+
+/* Frequently Questions Section Starting Point */
+
+.questions_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.questions_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.questions_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, #F29A63 0%);
+}
+
+.questions_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.questions_box {
+    height: 72px;
+    overflow: hidden;
+    transition: all linear .5s;
+    font-family: "Hanken Grotesk";
+}
+
+.arrow_icon {
+    transition: all linear .4s;
+}
+
+.questions_box:hover {
+    height: 165px;
+    background-color: #FFF1E3;
+}
+
+.questions_box:hover .arrow_icon {
+    transform: rotate(180deg);
+}
+
+/* Marketing Section Starting Point */
+
+.orange_btn {
+    color: #ffffff;
+    border: none;
+    padding: 1rem 1.8rem;
+    font-family: "Hanken Grotesk";
+    transition: all ease-in-out .4s;
+}
+
+.orange_btn:hover {
+    transform: scale(1.087);
+}
+
+.marketing_text span {
+    font-family: "Hanken Grotesk";
+}
+
+.marketing_text h1 {
+    line-height: 50px;
+    font-family: "Hanken Grotesk";
+}
+
+.marketing_text h1 span {
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #00000000 67%, black 0%);
+}
+
+.marketing_text p {
+    font-family: "Hanken Grotesk";
+}
+
+.marketing_ul li {
+    display: flex;
+    list-style: none;
+    font-family: "Hanken Grotesk";
+    color: #ffffff;
+}
+
+.marketing_ul li span {
+    font-family: "Hanken Grotesk";
+}
+
+.marketing_icon {
+    color: #F29A63;
+    font-weight: 600;
+}
+
+.marketing_text {
+    font-family: "Hanken Grotesk";
+}

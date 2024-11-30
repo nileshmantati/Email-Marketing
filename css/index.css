@@ -26,6 +26,7 @@ img {
 }
 
 /* Header Starting Point */
+
 .nav_main {
     z-index: 100000;
 }
@@ -475,4 +476,100 @@ nav {
     top: -20px;
     right: -20px;
     opacity: 0.1;
+}
+
+/* Footer Starting Point */
+
+.footer_section {
+    border-bottom: 1px solid #E7E7E7;
+}
+
+.footer_main {
+    font-family: "Hanken Grotesk";
+}
+
+.footer_box {
+    font-family: "Hanken Grotesk";
+}
+
+.footer_box ul li {
+    list-style: none;
+}
+
+.footer_box ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Hanken Grotesk";
+}
+
+.footer_box ul li a .footer-border {
+    content: "";
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #F29A63;
+    transition: all linear .4s;
+}
+
+.footer_box ul li a {
+    font-family: "Hanken Grotesk";
+}
+
+.footer_box ul li a span {
+    transition: all ease-in-out .4s;
+}
+
+.footer_box ul li a:hover span {
+    color: #F29A63;
+}
+
+.footer_box ul li a:hover {
+    color: #F29A63;
+}
+
+.footer_box ul li a:hover .footer-border {
+    width: 100%;
+}
+
+/* Copyright Starting Point */
+
+.copyright_right ul li {
+    list-style: none;
+}
+
+.copyright_right ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Hanken Grotesk";
+}
+
+.copyright_right ul li a .copy-border {
+    content: "";
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    background-color: #F29A63;
+    transition: all linear .4s;
+}
+
+.copyright_right ul li a {
+    font-family: "Hanken Grotesk";
+}
+
+.copyright_right ul li a span {
+    transition: all ease-in-out .4s;
+}
+
+.copyright_right ul li a:hover span {
+    color: #F29A63;
+}
+
+.copyright_right ul li a:hover {
+    color: #F29A63;
+}
+
+.copyright_right ul li a:hover .copy-border {
+    width: 100%;
 }

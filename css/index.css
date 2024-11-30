@@ -411,6 +411,9 @@ nav {
 }
 
 /* Marketing Section Starting Point */
+.marketing_section {
+    background-color: #121421;
+}
 
 .orange_btn {
     color: #ffffff;
@@ -435,7 +438,7 @@ nav {
 
 .marketing_text h1 span {
     background-color: transparent;
-    background-image: linear-gradient(180deg, #00000000 67%, black 0%);
+    background-image: linear-gradient(180deg, #00000000 66%, #FFFFFF1A 50%);
 }
 
 .marketing_text p {
@@ -460,4 +463,16 @@ nav {
 
 .marketing_text {
     font-family: "Hanken Grotesk";
+}
+
+.marketing_img_1 {
+    bottom: -50px;
+    left: -20px;
+    opacity: 0.1;
+}
+
+.marketing_img_2 {
+    top: -20px;
+    right: -20px;
+    opacity: 0.1;
 }
